@@ -1,0 +1,41 @@
+.factorypath
+.cache-tests
+.cache-main
+*.class
+*.log
+
+# Package files
+*.war
+*.jar
+*.ear
+
+# Maven
+out/
+target/
+logs/
+
+# Eclipse
+.project
+.classpath
+.settings/
+!central-ais-stub/**/.project
+rebel.xml
+
+# IDEA
+*.iml
+.idea
+
+# OSX
+.DS_STORE
+.Trashes
+
+# Windows
+Desktop.ini
+Thumbs.db
+
+# Project specific
+merged-dependencies.dot.png
+deploy-pwd.*.csv
+
+# Backup files
+*.bak
